@@ -1,0 +1,128 @@
+/* Admin css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+li,
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #d3d485;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #ec644a;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: 1400px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+}
+
+button {
+    color: #ec644a;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #d3d485;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+button:hover {
+    background-color: #ffffff;
+
+}
+
+h1 {
+    color: #d3d485;
+    font-size: 75px;
+    left: 45%;
+    top: 0;
+    position: absolute;
+    font-family: Arial;
+
+}
+
+/*.square
+    height: 100px;
+    width: 1920px;
+background-color: #ec644a;
+
+
+}*/
+
+.container30 {
+    width: 1920px;
+    height: 969px;
+    margin: 0;
+    background-color: #00555c;
+}
+
+.tablez {
+    width: 50px;
+    height: 50px;
+    background-color: #ec644a;
+}
+
+.container20 {
+    width: 1000px;
+    height: 500px;
+    background-color: #d3d485;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.col {
+    width: 166px;
+    height: 500px;
+    float: left;
+    background-color: #d3d485;
+    border: 1px solid black;
+}
+
+.col:last-child {
+    border: none
+}

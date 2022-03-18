@@ -1,0 +1,431 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(../scss/app.scss); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #d3d485;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #ec644a;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+
+}
+
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    transition: all 0.3 ease 0s;
+    color: white;
+}
+
+button {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #d3d485;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+}
+
+button:hover {
+    background-color: white;
+}
+
+.container3 {
+    width: 1920px;
+    height: 969px;
+    margin: 0;
+    background-color: #00555c;
+}
+
+.container2 {
+    width: 800px;
+    height: 300px;
+    background-color: #ec644a;
+    margin-left: 552px;
+    margin-top: 494px;
+    box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+}
+
+.mo1 {
+    width: 150px;
+    height: 50px;
+    background-color: #00555c;
+
+    transform: translate(50px, 98px);
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.container4 button {
+    width: 200px;
+    height: 50px;
+    background-color: #d3d485;
+    margin-left: 850px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #ec644a;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px inset, rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
+    margin-top: 15px;
+}
+
+
+.container4 button:hover {
+    color: black;
+    transition: all 0.3s ease 0s;
+    background-color: aliceblue;
+
+}
+
+
+.mo2 {
+    width: 150px;
+    height: 50px;
+    background-color: #00555c;
+
+    transform: translate(325px, 49px);
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+
+.mo3 {
+    width: 150px;
+    height: 50px;
+    background-color: #00555c;
+
+    transform: translate(50px, 90px);
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.mo4 {
+    width: 150px;
+    height: 50px;
+    background-color: #00555c;
+
+    transform: translate(325px, 40px);
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.mo5 {
+    width: 150px;
+    height: 50px;
+    background-color: #00555c;
+
+    transform: translate(597px, -7.969999999999999px);
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.mo6 {
+    width: 150px;
+    height: 50px;
+    background-color: #00555c;
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+
+    transform: translate(596px, -149px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.mn1 {
+    width: 650px;
+    height: 50px;
+    background-color: #d3d485;
+    transform: translate(73px, 7.030000000000001px);
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}
+
+.main {
+    position: absolute;
+    width: 799px;
+    top: 70px;
+}
+
+.container10 {
+
+    position: absolute;
+    width: 800px;
+    left: 551px;
+    top: 112apx;
+    height: 471px;
+    background: #ec644a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.log-bar {
+    background: #ec644a;
+    position: absolute;
+    width: 800px;
+    height: 95px;
+
+}
+
+.log-bar h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+
+}
+
+/* Add a background color and some padding around the form */
+.login-form {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login {
+    margin-top: 22px;
+    width: 359px;
+    float: left;
+    font-family: raleway;
+    background: #d3d485;
+    padding: 9px 22px 17px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login1 {
+    margin-top: 25px;
+    width: 332px;
+    float: right;
+    font-family: raleway;
+    background: #d3d485;
+    padding: 0px 6px 23px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login2 {
+    display: inline-block;
+    margin-left: 235px;
+    margin-top: 19px;
+    width: 343px;
+    font-family: raleway;
+    background: #d3d485;
+    padding: 1px 12px 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Admin Css */
+/* Admin css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+li,
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #d3d485;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #ec644a;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: 1400px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+}
+
+button {
+    color: #ec644a;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #d3d485;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+button:hover {
+    background-color: #ffffff;
+
+}
+
+h1 {
+    color: #d3d485;
+    font-size: 75px;
+    left: 45%;
+    top: 0;
+    position: absolute;
+    font-family: Arial;
+
+}
+
+/*.square
+    height: 100px;
+    width: 1920px;
+background-color: #ec644a;
+
+
+}*/
+
+.container30 {
+    width: 1920px;
+    height: 969px;
+    margin: 0;
+    background-color: #00555c;
+}
+
+.tablez {
+    width: 50px;
+    height: 50px;
+    background-color: #ec644a;
+}
+
+.container20 {
+    width: 1000px;
+    height: 500px;
+    background-color: #d3d485;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.col {
+    width: 166px;
+    height: 500px;
+    float: left;
+    background-color: #d3d485;
+    border: 1px solid black;
+}
+
+.col:last-child {
+    border: none
+}
